@@ -105,6 +105,10 @@ class _AddContactPageState extends State<AddContactPage> {
                         labelStyle: TextStyle(color: Colors.blueGrey)),
                     ),
                   ),
+
+            TextButton(onPressed: (){
+              
+            }, child: Text("Add contact"))
             ],
           ),
         ),
