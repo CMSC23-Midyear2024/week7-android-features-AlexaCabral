@@ -107,7 +107,7 @@ class _AddContactPageState extends State<AddContactPage> {
                   ),
 
             TextButton(onPressed: (){
-              
+              FlutterContacts.addListener(() => ());
             }, child: Text("Add contact"))
             ],
           ),
