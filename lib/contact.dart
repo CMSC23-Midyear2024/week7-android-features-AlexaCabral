@@ -29,6 +29,6 @@ class ContactPage extends StatelessWidget {
             child: Text(
                 'Email address: ${contact.emails.isNotEmpty ? contact.emails.first.address : '(none)'}'),
           ),
-        ]),
-      ));
+        ],),
+      ),);
 }
