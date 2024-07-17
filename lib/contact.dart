@@ -30,8 +30,9 @@ class ContactPage extends StatelessWidget {
                 'Email address: ${contact.emails.isNotEmpty ? contact.emails.first.address : '(none)'}'),
           ),
 
-          TextButton(onPressed: (){
-            
+          OutlinedButton(onPressed: () async {
+              contact.delete();
+              Navigator.pop(context);
           }, child: Text("Delete contact"))
         ],),
       ),
